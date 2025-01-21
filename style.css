@@ -15,6 +15,7 @@ body{
   margin: 0 auto;
    /* border: 1px solid black; */
   /* background: yellow */
+  background-color: #f7f7f7;
 }
 *{
   padding: 0;
@@ -250,7 +251,7 @@ nav{
 }
 .circle-btn button i{
   color: white;
-  font-size: 15px;
+  font-size: 24px;
   
 }
 
@@ -258,7 +259,9 @@ nav{
 
 /*responsive*/
 @media only screen and ( max-width: 900px ){
-
+  body{
+    background-color: #FFFFFF;
+  }
   
   nav{
     max-width: 100%;
