@@ -401,6 +401,22 @@ nav{
 .float-seven button{
   background: rgb(149, 178, 38);
 }
+.secand-section-btn{
+  text-align: center;
+  margin-top: 80px;
+  
+}
+.secand-section-btn button{
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  border: none;
+  border-radius: 12px;
+  background: rgb(17, 17, 17);
+  padding: 10px 61px;
+}
 
 /*responsive*/
 @media only screen and ( max-width: 900px ){
@@ -476,7 +492,7 @@ nav{
   /*first-section*/
   .first-section{
     
-    padding: 40px 0;
+    padding: 40px 0 20px;
   }
   .first-section-title h2{
     color: rgb(0, 0, 0);
@@ -526,6 +542,9 @@ nav{
     display: none;
   }
   /*section-three*/
+  .secand-section{
+    padding: 40px 0 40px;
+  }
   .second-section-left-item{
     display: none;
   }
@@ -574,7 +593,21 @@ nav{
     width: 100%;
     margin: 0 auto;
   }
- 
+  .secand-section-btn button{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 10px 37px;
+    
+  }
+  .secand-section-btn{
+    margin-top: 20px;
+
+  }
+
+  
 }
 @media only screen and ( min-width: 901px ) and (max-width:1020px){
   .float-div button{
@@ -583,6 +616,7 @@ nav{
     font-size: 9.13px;
     font-weight: 500;
     line-height: 17.12px;
+   
 
   } 
   .float-div button{
