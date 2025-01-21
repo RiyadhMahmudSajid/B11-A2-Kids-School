@@ -606,7 +606,9 @@ nav{
     margin-top: 20px;
 
   }
-
+  footer{
+    background-color: rgb(1, 172, 253);
+  }
   
 }
 @media only screen and ( min-width: 901px ) and (max-width:1020px){
