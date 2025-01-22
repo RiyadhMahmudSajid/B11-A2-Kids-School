@@ -13,8 +13,6 @@
 body{
   max-width: 1440px;
   margin: 0 auto;
-   /* border: 1px solid black; */
-  /* background: yellow */
   background-color: #f7f7f7;
 }
 *{
@@ -22,11 +20,19 @@ body{
   margin: 0;
   box-sizing: border-box;
 }
-/*header part start*/
-/* header{
-  width: 82.86%;
-  margin: 0 auto;
-} */
+marquee{
+  font-size: 20px;
+  font-family: "Quicksand", serif;
+  color: rgb(254, 163, 1);
+}
+marquee .sp1{
+  font-size: 28px;
+  color: rgb(1, 172, 253);
+   font-weight: 700;
+}
+marquee .sp2{
+  font-style: italic;
+}
 .logo-part p{
   color: rgb(17, 17, 17);
   font-family: Quicksand;
@@ -70,7 +76,6 @@ body{
 }
 .menu-part > ul{
   display: flex;
-  /* border: 1px solid red; */
 }
 nav{
   display: flex;
@@ -491,11 +496,6 @@ footer{
    max-width: 399px;
 }
 
-
-
-
-
-
 /*responsive*/
 @media only screen and ( max-width: 576px ){
   body{
@@ -535,12 +535,9 @@ nav{
 .hero-title{
   max-width: 100%;
   text-align: center;
-  /* padding: 0 17px; */
 }
 .hero-part{
   flex-direction: column-reverse;
-  /* justify-content: space-between;
-  align-items: center; */
 }
 .hero-img img{
   width: 100%;
@@ -620,7 +617,7 @@ nav{
 .circle-btn{
   display: none;
 }
-  /*section-three*/
+  /*section-two*/
 .secand-section{
   padding: 40px 0 40px;
 }
@@ -653,7 +650,7 @@ nav{
 }
 .float-div button{
   margin-left: 34px;
-  margin-top: -22px; 
+  margin-top: -20px; 
 }
 .second-section-right-child{
   width: 100%;
@@ -741,6 +738,18 @@ nav{
   padding: 12px 17px;
   margin: 0 auto ;
   margin-bottom: 28px;
+}
+.hero-part{
+  flex-direction: column-reverse;
+}
+.hero-part{
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 18px;
+}
+.hero-title{
+  max-width: 100%;
+  text-align: center;
 }
 .logo-part p{
   display: none;
